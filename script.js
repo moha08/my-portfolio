@@ -70,12 +70,17 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       intent: 'experience_summary',
       keywords: ['experience', 'years', 'how long', 'career', 'background', 'history', 'job', 'work'],
-      answer: 'Mohammad has 13+ years of professional experience as a Senior DBA, Exadata Administrator, and Data Engineer. He has worked at National Bank of Kuwait, Realsoft, Al-Khaleej for Computers, and Globitel.'
+      answer: 'Mohammad has 13+ years of professional experience as a Senior DBA, Exadata Administrator, and Multi-cloud Architect. He is currently working as a Senior Oracle DBA at HealthEquity (Indium Contract) and previously worked at National Bank of Kuwait, Realsoft, Al-Khaleej for Computers, and Globitel.'
+    },
+    {
+      intent: 'healthequity',
+      keywords: ['healthequity', 'indium', 'azure', 'database@azure', 'current job', 'current role', 'present', 'contract'],
+      answer: 'At HealthEquity (Indium Contract, Jul 2026 – Present), Mohammad serves as Senior Oracle DBA. He administers 4 enterprise Oracle Exadata systems hosted on Oracle Database@Azure, architects multi-region Active Data Guard configurations across Azure regions, manages Exadata Sparse Clones/Snapshots reducing non-production storage by up to 80%, tunes complex SQL queries using Smart Scans & Flash Cache, automates patching/RMAN backups, and enforces TDE and RBAC security compliance.'
     },
     {
       intent: 'nbk',
       keywords: ['nbk', 'national bank of kuwait', 'kuwait', 'senior database administrator', 'senior dba', 'data engineer'],
-      answer: 'At National Bank of Kuwait (Oct 2020 – March 2026), Mohammad was a Senior DBA & Data Engineer. He designed the Enterprise Data Warehouse (EDW) infrastructure on Exadata X9M/X8M, led Oracle/Exadata patching cycles, designed high-availability RAC/Data Guard systems, improved data pipelines by 40%, and built Grafana/Prometheus database monitoring dashboards.'
+      answer: 'At National Bank of Kuwait (Oct 2020 – Jun 2026), Mohammad was a Senior DBA & Data Engineer. He designed the Enterprise Data Warehouse (EDW) infrastructure on Exadata X9M/X8M, led Oracle/Exadata patching cycles, designed high-availability RAC/Data Guard systems, improved data pipelines by 40%, and built Grafana/Prometheus database monitoring dashboards.'
     },
     {
       intent: 'realsoft',
